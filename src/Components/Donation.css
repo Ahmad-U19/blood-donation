@@ -1,0 +1,125 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.donor h1 {
+    text-align: center;
+    margin-top: 60px;
+    color: #b71c1c;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.donor p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: rgb(94, 16, 16);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+}
+
+.bloodTypes h2 {
+    text-align: center;
+    margin-top: 60px;
+    color: #b71c1c;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.bloodtype {
+    border: 1px solid #b71c1c;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.bloodtype img {
+    display: block;
+    margin: 0 auto 10px auto;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.bloodtype h3 {
+    color: #8b0000;
+    margin-bottom: 10px;
+}
+
+.bloodtype p {
+    color: #4e4e4e;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.bloodtype button {
+    margin-top: auto;
+}
+
+section p b {
+    color: #b71c1c;
+}
+
+footer {
+    background-color: rgb(122, 1, 1);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1;
+}
+
+footer {
+    background-color: rgb(122, 1, 1);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
