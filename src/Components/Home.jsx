@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import './Home.css';
 import { useNavigate } from 'react-router-dom';
 
+import mainBg from '../assets/Images/pexels-pranidchakan-boonrom-101111-1350560.jpg';
+
 export const Home = () => {
     const navigate = useNavigate();
 
@@ -13,7 +15,7 @@ export const Home = () => {
     return (
         <div className="page-transition">
             <div className="main-image text-center text-danger position-relative animate-fade-in">
-                <img src="/Images/pexels-pranidchakan-boonrom-101111-1350560.jpg" alt="Main Picture" className="main-pic shadow-lg" />
+                <img src={mainBg} alt="Main Picture" className="main-pic shadow-lg" />
                 <div className="hero-overlay">
                     <h1 className="fade-text animate-slide-up">A single drop of kindness can save a life  Donate blood today</h1>
                     <button className="image-btn btn-primary-custom animate-slide-up" style={{ animationDelay: '0.2s' }} onClick={() => navigate('/login')}>Donate</button>
