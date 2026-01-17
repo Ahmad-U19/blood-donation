@@ -37,7 +37,7 @@ Follow these steps to set up the project locally.
 
 2. Navigate to the project directory:
    ```bash
-   cd Web-Assignment-03
+   cd blood-donation
    ```
 
 3. Install dependencies:
