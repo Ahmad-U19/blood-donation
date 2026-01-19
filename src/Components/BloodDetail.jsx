@@ -93,6 +93,7 @@ export const BloodDetail = () => {
                 >
                     Go Back
                 </button>
+                <br /><br />
             </main>
         </div>
     );
