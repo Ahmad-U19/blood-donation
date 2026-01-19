@@ -7,7 +7,7 @@ export const Navbar = ({ favouritesCount }) => {
                 <div className="container d-flex justify-content-between align-items-center">
                     <h1 className="m-0 logo-text">SRC Blood Donation</h1>
                     <ul className="d-flex list-unstyled m-0 gap-4 align-items-center">
-                        <li><Link to="/blood-donationtion/" className="nav-link-custom">Home</Link></li>
+                        <li><Link to="/blood-donation/" className="nav-link-custom">Home</Link></li>
                         <li><Link to="/about" className="nav-link-custom">About Us</Link></li>
                         <li><Link to="/donation" className="nav-link-custom">Blood Types</Link></li>
                         <li><Link to="/login" className="nav-link-custom">Login</Link></li>
