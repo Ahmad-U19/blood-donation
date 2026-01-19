@@ -138,3 +138,39 @@ button {
   transform: translateY(-2px);
   box-shadow: 0 6px 8px rgba(220, 53, 69, 0.4);
 }
+
+@media (max-width: 768px) {
+  /* Navbar Mobile Layout */
+  header .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header h1.logo-text {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  header ul {
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+    gap: 1rem !important;
+  }
+
+  header ul li {
+    width: 100%;
+  }
+
+  header ul li a {
+    display: block;
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  /* Global Container */
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

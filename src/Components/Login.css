@@ -1,13 +1,12 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
 .login-container {
     flex: 1;
     background-color: #febfbf;
     padding: 60px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 form {
@@ -88,10 +87,18 @@ input[type="password"] {
     text-decoration: underline;
 }
 
-footer {
-    background-color: rgb(122, 1, 1);
-    color: white;
-    text-align: center;
-    padding: 5px;
-    width: 100%;
+@media (max-width: 768px) {
+    .login-container {
+        padding: 40px 15px;
+    }
+
+    form {
+        padding: 30px 20px;
+        max-width: 100%;
+        box-shadow: none;
+    }
+
+    form h2 {
+        font-size: 24px;
+    }
 }

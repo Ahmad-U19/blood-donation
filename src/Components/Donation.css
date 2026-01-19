@@ -1,13 +1,3 @@
-html,
-body {
-    margin: 0;
-    padding: 0;
-}
-
-header h1 {
-    margin-left: 20px;
-}
-
 li a {
     text-decoration: none;
     color: white;
@@ -93,33 +83,21 @@ section p b {
     color: #b71c1c;
 }
 
-footer {
-    background-color: rgb(122, 1, 1);
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    width: 100%;
-    margin: 0;
-    box-sizing: border-box;
-}
+@media (max-width: 768px) {
 
-html,
-body {
-    height: 100%;
-}
+    .donor h1,
+    .bloodTypes h2 {
+        font-size: 28px;
+        margin-top: 30px;
+    }
 
-body {
-    display: flex;
-    flex-direction: column;
-}
+    .donor p {
+        font-size: 18px;
+        padding: 0 10px;
+    }
 
-.main {
-    flex: 1;
-}
-
-footer {
-    background-color: rgb(122, 1, 1);
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+    .bloodtype img {
+        width: 80px;
+        height: 80px;
+    }
 }
